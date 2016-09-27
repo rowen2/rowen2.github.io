@@ -34,8 +34,11 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
+ul.menu a {
+    padding: 14px 25px; 
+}
 ul.menu a:hover {
-    background-color: blue
+    background-color: blue        
 }
 footer a:hover {
     color: gold;
