@@ -39,7 +39,7 @@ ul.menu a {
 }
 ul.menu a:hover {
     color: blue;
-    font-size:4em;
+    font-size:2.1em;
     text-decoration: underline;    
 }
 footer a:hover {
