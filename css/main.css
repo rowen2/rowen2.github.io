@@ -34,7 +34,9 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
+a:hover {
+    background-color: blue
+}
 footer a:hover {
     color: gold;
 }
@@ -48,6 +50,3 @@ ul.posts li {
     list-style: none;
 }
 
-ul.menu {
-    background-color: #f44336
-}
