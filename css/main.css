@@ -9,10 +9,10 @@ div.blurb {
     background-position: center top;
     background-attachment: fixed;
     background-size: cover;    
-    color:  	#008B8B;
+    color:white;
 }
 div.blurb p{
-    color:  	#008B8B;
+    color:white;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
