@@ -8,10 +8,10 @@ div.blurb {
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    color: #6495ED;
+    color:  	#008B8B;
 }
 div.blurb p{
-    color: #6495ED;
+    color:  	#008B8B;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
