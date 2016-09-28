@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-blurb {
+div class="blurb" {
     background-image: url(https://1cornerstone.files.wordpress.com/2009/05/cfiles43609.jpg);
     background-repeat: no-repeat;
     background-position: center top;
