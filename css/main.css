@@ -3,11 +3,11 @@ body {
     width: 70%;
 }
 div.blurb {
-    background-image: url("https://1cornerstone.files.wordpress.com/2009/05/cfiles43609.jpg");
+    background-image: url("http://murraystate.info/newsletter/wp-content/uploads/2014/06/athletic-logos-wp.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 div.blurb p{
     color: white;
