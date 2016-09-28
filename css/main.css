@@ -7,7 +7,6 @@ div.blurb {
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    height: 1000px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
