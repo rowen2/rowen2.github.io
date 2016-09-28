@@ -1,13 +1,14 @@
 body {
     margin: 60px auto;
     width: 70%;
-}
-div.blurb {
     background-image: url("http://tse4.mm.bing.net/th?id=OIP.M1cbda0eedbf6d0a02a6b6c1c640f63dfH0&pid=15.1");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;    
+}
+div.blurb {
+
 }
 div.blurb p{
     color: black;
