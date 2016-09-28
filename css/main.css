@@ -8,6 +8,7 @@ div.blurb {
     background-position: center top;
     background-attachment: fixed;
     background-size: cover;
+    color: white;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
