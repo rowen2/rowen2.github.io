@@ -8,6 +8,7 @@ div.blurb {
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
+    background-size: contain;    
     color:  	#008B8B;
 }
 div.blurb p{
