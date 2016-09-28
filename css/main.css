@@ -2,6 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
     background-image: url(https://1cornerstone.files.wordpress.com/2009/05/cfiles43609.jpg);
+    background-repeat: repeat-x;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
