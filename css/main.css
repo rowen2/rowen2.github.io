@@ -10,7 +10,7 @@ div.blurb {
     background-size: cover;
 }
 div.blurb p{
-    color: white;
+    color: black;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
