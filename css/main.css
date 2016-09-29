@@ -4,12 +4,13 @@ body {
     background-color:#F0F8FF
 }
 div.blurb {
-    background-image: url("http://joebosack.com/wp-content/uploads/2014/06/Murray1.jpg");
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: cover;    
     color:white;
+    background-color: gray;
 }
 div.blurb p{
     color:white;
@@ -47,8 +48,7 @@ footer {
     font-size: .8em;
 }
 ul.menu {
-    background-color: gold;
-    height:100%
+    
 }
 ul.menu a:hover {
     color: blue;
