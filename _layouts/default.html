@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 	<html>
+		<script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+		<script>
+ 		 // Initialize Firebase
+ 		 var config = {
+  			  apiKey: "AIzaSyDYXkg13AmcgxHlxDbMOBd25caaymVHhBE",
+   			 authDomain: "test-project-c7062.firebaseapp.com",
+   			 databaseURL: "https://test-project-c7062.firebaseio.com",
+   			 storageBucket: "test-project-c7062.appspot.com",
+   			 messagingSenderId: "568808702190"
+ 		 };
+ 		 firebase.initializeApp(config);
+		</script>
+		
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
@@ -27,17 +40,4 @@
 				</ul>
 			</footer>
 		</body>
-		
-		<script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
-		<script>
- 		 // Initialize Firebase
- 		 var config = {
-  			  apiKey: "AIzaSyDYXkg13AmcgxHlxDbMOBd25caaymVHhBE",
-   			 authDomain: "test-project-c7062.firebaseapp.com",
-   			 databaseURL: "https://test-project-c7062.firebaseio.com",
-   			 storageBucket: "test-project-c7062.appspot.com",
-   			 messagingSenderId: "568808702190"
- 		 };
- 		 firebase.initializeApp(config);
-		</script>
 	</html>
