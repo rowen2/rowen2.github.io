@@ -48,6 +48,7 @@ footer {
 }
 ul.menu {
     background-color: gold;
+    height:100%
 }
 ul.menu a:hover {
     color: blue;
