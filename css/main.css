@@ -71,3 +71,100 @@ ul.posts li {
     padding: 14px 25px;    
 }
 
+/* CSS starts for QOTD. */	
+
+#webpage {
+	width:1200px;
+	height:900px;
+	}
+
+h1 { /*Header*/
+	text-align:center;
+	height:55px;
+	color:white;
+	}
+
+#container {
+	text-align:center;
+	height:800px;
+	border:2px solid black;
+	position:relative;
+	background-color:gold;
+	}
+	
+p.one {
+	color:red;
+	border:2px solid white;
+	height:125px;
+	background-color:white;
+}
+
+p.two {
+	color:red;
+	text-align:center;
+	border:2px solid white;
+	height:125px;
+	background-color:white;
+}
+
+#left {
+	
+	height:600px;
+	width:530px;
+	border:4px solid gold;
+	float:left;
+	color:white;
+	font-size:20px;
+	background-color:blue;
+	}
+	
+#right a { /*heading links within container*/
+	border:3px solid green;
+	color:white;
+	background-color:purple;
+	padding:5px 10px 5px 10px;
+	}
+		
+#right a:hover{
+	border:2px solid orange;
+	color:orange;
+	}
+	
+#right {
+	background-image: url(https://media.giphy.com/media/3GajcgSHoCGRi/giphy.gif);
+	background-repeat:no-repeat;	
+	background-position:center bottom;
+	height:600px;
+	width:650px;
+	text-align:center;
+	float:left;
+	color:gold;
+	font-size:20px;
+	font-style:italic;
+	border:3px solid gold;;
+	background-color:blue;
+	}	
+	
+#footer {
+ 	border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+	width:100%;
+	height:95px;
+	float:left;
+	color:white;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    background-color:red;
+	text-align:left;
+}
+	
+#QOTD {
+	text-align:center;
+	font-style:italic;
+	color:gold;
+	background-color:blue;
+	}
+
+
