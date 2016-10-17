@@ -95,7 +95,7 @@ h1 { /*Header*/
 p.one {
 	color:red;
 	border:2px solid white;
-	height:150px;
+	height:200px;
 	background-color:white;
 }
 
@@ -103,7 +103,7 @@ p.two {
 	color:red;
 	text-align:center;
 	border:2px solid white;
-	height:150px;
+	height:200px;
 	background-color:white;
 }
 
