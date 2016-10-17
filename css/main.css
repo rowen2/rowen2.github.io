@@ -93,18 +93,16 @@ h1 { /*Header*/
 	}
 	
 p.one {
-	color:red;
+	color:white;
 	border:2px solid white;
 	height:200px;
-	background-color:white;
 }
 
 p.two {
-	color:red;
+	color:white;
 	text-align:center;
 	border:2px solid white;
 	height:200px;
-	background-color:white;
 }
 
 #left {
