@@ -77,7 +77,7 @@ ul.posts li {
 	height:900px;
 	}
 
-h1 { /*Header*/
+h1.one { /*Header*/
 	text-align:center;
 	height:55px;
 	color:white;
