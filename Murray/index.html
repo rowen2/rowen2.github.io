@@ -6,10 +6,55 @@ title: Info about Murray
       <h1> About Murray</h1>
       <p> Here's just a little bit about Murray, more thrown in later. IT'S A GREAT PLACE TO LIVE, DON'T YOU KNOW?</p>
 
-<div class="btn-group-vertical">
-  <button type="button" class="btn btn-primary">Apple</button>
-  <button type="button" class="btn btn-primary">Samsung</button>
-  <button type="button" class="btn btn-primary">Sony</button>
+<ul class="tab">
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Murray')" id="defaultOpen">Murray</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Appartments')">Appartments</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Groceries')">Groceries</a></li>
+<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Restaurants')">Restaurants</a></li>
+</ul>
+
+<div id="Murray" class="tabcontent">
+  <h3>Murray</h3>
+<img src="http://www.falwellestates.com/images/1.jpg" alt="Murray Welcome Sign" style="width:304px;height:228px;">
+  <p><i>Being the "Friendliest" small town is something that comes naturally to this small university community. Consisting of a large retirement and family population mixed with university students, Murray provides a unique variety of customs and cultures nestled next to Kentucky Lake, offering sweet, southern charm.
+
+Murray knows no strangers. The town welcomes visitors into this small community with open arms and creates the feeling of being home.</i></p>
+<p>From http://www.tourmurray.com/</p>
 </div>
+
+<div id="Appartments" class="tabcontent">
+  <h3>Appartments</h3>
+  <p>info stuffs here</p>
+</div>
+
+<div id="Groceries" class="tabcontent">
+  <h3>Groceries</h3>
+  <p>info stuffs here</p>
+</div>
+
+<div id="Restaurants" class="tabcontent">
+  <h3>Restaurants</h3>
+  <p>info stuffs here</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
 
   </div> <!-- /.Murray -->
