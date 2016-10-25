@@ -3,7 +3,7 @@ body {
     width: 80%; 
 }
 div.blurb p{
-    color:white;
+    color: whitesmoke;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
