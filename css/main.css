@@ -2,15 +2,6 @@ body {
     margin: 60px auto;
     width: 80%; 
 }
-div.blurb {
-    background-image: url(http://i.imgur.com/DDqayEs.gif);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: cover;    
-    color:white;
-    background-color: black;
-}
 div.blurb p{
     color:white;
 }
