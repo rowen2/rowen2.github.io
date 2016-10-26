@@ -8,10 +8,10 @@ title: Murray User Manual (MUM)
 	<p> This is the index page to Murray User Manual, or MUM for short. This is still a work in progress. So things may catch fire, but it will be fixed <a href="https://developer.valvesoftware.com/wiki/Valve_Time">soon™</a></p>
 </div><!-- /.blurb -->
 
-<ul class="blog">
+<ul class="posts">
 
-  {% for post in site.blog %}
-    <li><span>{{ blog.date | date_to_string }}</span> &raquo; <a href="{{ blog.url }}" title="{{ blog.title }}">{{ blog.title }}</a></li>
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
     
 </ul>
