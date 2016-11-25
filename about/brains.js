@@ -1,4 +1,4 @@
-var starCountRef = firebase.database().ref('posts/' + postId + '/starCount');
-starCountRef.on('value', function(snapshot) {
-  updateStarCount(postElement, snapshot.val());
+var dev1 = firebase.database().ref("Developers/Dev1");
+dev1.on('value', function(snapshot) {
+  document.getElementById("p0").innerHTML = "snapshot.val())"; 
 });
