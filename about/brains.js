@@ -8,5 +8,3 @@ function onDev1(){
   dataBaseDevs.on('updatedHTML', updateTheDamnShit);
 }
   
-
-}
