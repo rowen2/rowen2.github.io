@@ -5,6 +5,6 @@ var updateTheDamnShit = function(snapshot) {
 }
 
 function onDev1(){
-  fireBase.dataBaseDevs.on('updatedHTML', updateTheDamnShit);
+  Firebase.dataBaseDevs.on('updatedHTML', updateTheDamnShit);
 }
   
