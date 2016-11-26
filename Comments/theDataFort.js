@@ -5,9 +5,12 @@ function populateComments(){
   });
 }//not yet done
 function writeComments(commentID, comment) {
-  firebase.database().ref('/Comments/' + commentID).push({
-    Value = comment
-  });
+  var newKey = firebase.database().ref().child('Comments').push().key;
+
+  var updates = {};
+  updates['/Comments/' + newKey] = comment;
+  return firebase.database().ref().update(updates);
+
 }
 function getVariables(){
       var ID = document.getElementById("cID").value;
