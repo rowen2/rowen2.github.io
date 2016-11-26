@@ -9,3 +9,9 @@ function writeComments(commentID, comment) {
     value: comment 
   });
 }
+function getVariables(){
+		  var ID = document.getElementById("cID").value;
+		  var CM = document.getElementById("com").value;
+      writeComments(ID, CM);
+}
+
