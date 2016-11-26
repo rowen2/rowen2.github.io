@@ -3,9 +3,9 @@ function populateComments(){
   iHateThis.on('value', function(snapshot) {
     document.getElementById("previousC").innerHTML = snapshot.val();
   });
-}//not yet done
+}
 function writeComments(name, comment) {  
-    var newComment = new Firebase('https://mum-database.firebaseio.com/Comments');
+    var newComment = firebase.database().ref('/Comments');
     newComment.push({ 'Comment' : 'Comment comment'});
   }
 
