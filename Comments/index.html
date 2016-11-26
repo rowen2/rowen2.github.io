@@ -18,14 +18,17 @@ title: About (MUM)
 		  };
 		  firebase.initializeApp(config);
 		  populateComments();
+		  var ID = document.getElementById("cID").value;
+		  var com = document.getElementById("com").value;
 		</script>
 	</head>
 	<body>
+		
 		<div class="about">
 			<h1>Enter Comments Here</h1>
-			<p>  Comment ID: <input type="text" name="CommentID" value="" style="width: 100px;"></p>
-			<p>  Comment: <input type="text" name="CommentText" value="" style="width: 300px;"></p>
-      			<p> <button onclick="writeComments(commentID, comment)">Submit!</button> </p>
+			<p>  Comment ID: <input type="text" name="CommentID" id="cID" value="" style="width: 100px;"></p>
+			<p>  Comment: <input type="text" name="CommentText" id="com" value="" style="width: 300px;"></p>
+      			<p> <button onclick="writeComments(ID, com)">Submit!</button> </p>
 			<h2> Previous Comments </h2>
 			<p id="previousC"> place holder for previous comments </p>
 		</div><!-- /.comments -->
