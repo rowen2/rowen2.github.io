@@ -12,6 +12,6 @@ function writeComments(commentID, comment) {
 function getVariables(){
       var ID = document.getElementById("cID").value;
       var CM = document.getElementById("com").value;
-      writeComments(Com2, data);
+      writeComments("Com2", "data");
 }
 
