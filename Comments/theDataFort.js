@@ -6,6 +6,6 @@ function populateComments(){
 }//not yet done
 function writeComments(commentID, comment) {
   firebase.database().ref('/Comments/' + commentID).push({
-    Value: comment 
+    value: comment 
   });
 }
