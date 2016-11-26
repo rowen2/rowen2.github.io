@@ -1,12 +1,15 @@
-function populateComments(){
-  var iHateThis = firebase.database().ref('/Comments/Com1');
+function populateComments(path){
+  var iHateThis = firebase.database().ref('/Comments/' + path);
   iHateThis.on('value', function(snapshot) {
-    document.getElementById("previousC").innerHTML = snapshot.val();
+    var old = document.getElementById("previousC").innerHTML;
+    document.getElementById("previousC").innerHTML = old + "<br><br/>" + snapshot.val();
   });
 }
 function writeComments(name, comment) {  
     var newComment = firebase.database().ref('/Comments');
     newComment.push({'Comment' : comment, 'Name': name });
+    var path = newComment.toString();
+  populateComments(path);
   }
 
 function getVariables(){
