@@ -5,7 +5,8 @@ function populateComments(){
   });
 }//not yet done
 function writeComments(comment) {
-  firebase.database().ref('Comments/').push({
+   var newPostKey = firebase.database().ref().child('Comments').push().key;
+  firebase.database().ref('Comments/' + newPostKey).push({
     Comment: comment
   });
 
