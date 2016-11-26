@@ -6,7 +6,7 @@ function populateComments(){
 }
 function writeComments(name, comment) {  
     var newComment = firebase.database().ref('/Comments');
-    newComment.push({ 'Name': name , 'Comment' : comment});
+    newComment.push({'Comment' : comment, 'Name': name });
   }
 
 function getVariables(){
