@@ -7,7 +7,7 @@ function populateComments(){
 function writeComments(name, comment) {  
     var newComment = new Firebase('https://mum-database.firebaseio.com/Comments');
     newCommen.push({ name : comment});
-  });
+  }
 
 function getVariables(){
       var CM = document.getElementById("com").value;
