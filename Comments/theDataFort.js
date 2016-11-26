@@ -5,7 +5,8 @@ function populateComments(){
   });
 }//not yet done
 function writeComments(commentID, comment) {
-  firebase.database().ref('/Comments/' + commentID).push({
+  firebase.database().ref('/Comments').push({
+    commentID:comment
   });
 }
 function getVariables(){
