@@ -6,12 +6,12 @@ function populateComments(){
 }//not yet done
 function writeComments(commentID, comment) {
   firebase.database().ref('/Comments/' + commentID).push({
-    value: comment 
+    Value: comment 
   });
 }
 function getVariables(){
-		  var ID = document.getElementById("cID").value;
-		  var CM = document.getElementById("com").value;
+      var ID = document.getElementById("cID").value;
+      var CM = document.getElementById("com").value;
       writeComments(Com2, data);
 }
 
