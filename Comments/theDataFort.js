@@ -4,15 +4,14 @@ function populateComments(){
     document.getElementById("previousC").innerHTML = snapshot.val();
   });
 }//not yet done
-function writeComments(comment) {
-   var newPostKey = firebase.database().ref().child('Comments').push().key;
-  firebase.database().ref('Comments/' + newPostKey).push({
-    NewComment: comment
+function writeComments(name, comment) {  
+    var newComment = new Firebase('https://mum-database.firebaseio.com/Comments');
+    newCommen.push({ name : comment});
   });
 
 }
 function getVariables(){
       var CM = document.getElementById("com").value;
-      writeComments(data);
+      writeComments("thisisastupidcomment", "stupid");
 }
 
