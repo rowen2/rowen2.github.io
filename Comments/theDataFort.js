@@ -6,7 +6,7 @@ function populateComments(){
 }//not yet done
 function writeComments(name, comment) {  
     var newComment = new Firebase('https://mum-database.firebaseio.com/Comments');
-    newCommen.push({ name : comment});
+    newComment.push({ name : comment});
   }
 
 function getVariables(){
