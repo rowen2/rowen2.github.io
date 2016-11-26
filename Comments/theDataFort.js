@@ -4,3 +4,8 @@ function populateComments(){
     document.getElementById("previousC").innerHTML = snapshot.val();
   });
 }//not yet done
+function writeComments(commentID, comment) {
+  firebase.database().ref('Comments/' + commentID).set({
+    Value: comment 
+  });
+}
