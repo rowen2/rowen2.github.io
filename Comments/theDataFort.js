@@ -9,7 +9,6 @@ function writeComments(name, comment) {
     newCommen.push({ name : comment});
   });
 
-}
 function getVariables(){
       var CM = document.getElementById("com").value;
       writeComments("thisisastupidcomment", "stupid");
