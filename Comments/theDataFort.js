@@ -1,5 +1,5 @@
 function populateComments(path){
-  var iHateThis = firebase.database().ref('/Comments/' + path);
+  var iHateThis = firebase.database().ref('/Comments/' + path+ '/Comment');
   iHateThis.on('value', function(snapshot) {
     var old = document.getElementById("previousC").innerHTML;
     document.getElementById("previousC").innerHTML = old + "<br><br/>" + snapshot.val();
