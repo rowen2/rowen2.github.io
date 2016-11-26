@@ -7,7 +7,7 @@ function populateComments(){
 function writeComments(comment) {
    var newPostKey = firebase.database().ref().child('Comments').push().key;
   firebase.database().ref('Comments/' + newPostKey).push({
-    Comment: comment
+    NewComment: comment
   });
 
 }
