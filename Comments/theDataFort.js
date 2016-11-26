@@ -5,13 +5,13 @@ function populateComments(){
   });
 }//not yet done
 function writeComments(commentID, comment) {
-  firebase.database().ref('/Comments/' +commentID).push({
-    commentID:comment
+  firebase.database().ref('/Comments/' + commentID).push({
+    Value = comment
   });
 }
 function getVariables(){
       var ID = document.getElementById("cID").value;
       var CM = document.getElementById("com").value;
-      writeComments("Com2", "data");
+      writeComments(Com2, data);
 }
 
