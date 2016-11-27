@@ -11,7 +11,7 @@ function writeComments(name, comment) {
   var newCommentRef = newComment.push();
     newCommentRef.set({ 'Comment' : comment, 'Name': name });
     // var path = newCommentRef.key().toString();
-  document.getElementById("previousC").innerHTML ="hello";
+  document.getElementById("previousC").innerHTML =newCommentRef.toString();
   populateComments("monkeys");
   }
 
