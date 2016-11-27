@@ -10,7 +10,8 @@ function writeComments(name, comment) {
     //newComment.push({'Comment' : comment, 'Name': name });
   var newCommentRef = newComment.push();
     newCommentRef.set({ 'Comment' : comment, 'Name': name });
-     var path = newCommentRef.name();
+  var newRef = new Firebase(newCommentRef.toString());
+     var path = newRef.name();
   document.getElementById("previousC").innerHTML =path;
   populateComments(path);
   }
