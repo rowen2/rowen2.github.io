@@ -12,7 +12,6 @@ function writeComments(name, comment) {
     newCommentRef.set({ 'Comment' : comment, 'Name': name });
      var path = newCommentRef.toString();
   var key = path.slice(45,65); 
-  document.getElementById("previousC").innerHTML =key;
   populateComments(key);
   }
 
