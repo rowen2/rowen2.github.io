@@ -1,7 +1,8 @@
 function populateComments(path){
   var iHateThis = firebase.database().ref(path+ '/Comment');
   iHateThis.on('value', function(snapshot) {
-    document.getElementById("previousC").innerHTML =snapshot.val();
+    var data = snapshot.val().toString();
+    document.getElementById("previousC").innerHTML =data;
   });
 }
 function writeComments(name, comment) {  
