@@ -10,8 +10,8 @@ function writeComments(name, comment) {
     //newComment.push({'Comment' : comment, 'Name': name });
   var newCommentRef = newComment.push();
     newCommentRef.set({ 'Comment' : comment, 'Name': name });
-     var path = newCommentRef.key().toString();
-  populateComments(path);
+    // var path = newCommentRef.key().toString();
+  populateComments("monkeys");
   }
 
 function getVariables(){
