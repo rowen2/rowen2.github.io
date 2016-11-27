@@ -1,5 +1,5 @@
 function populateComments(path){
-  var iHateThis = firebase.database().ref(path+ '/Comment');
+  var iHateThis = firebase.database().ref('/Comments/'+path+ '/Comment');
   iHateThis.on('value', function(snapshot) {
     var data = snapshot.val().toString();
     document.getElementById("previousC").innerHTML =data;
@@ -10,7 +10,7 @@ function writeComments(name, comment) {
     //newComment.push({'Comment' : comment, 'Name': name });
   var newCommentRef = newComment.push();
     newCommentRef.set({ 'Comment' : comment, 'Name': name });
-     var path = newCommentRef.toString();
+     var path = newCommentRef.key().toString();
   populateComments(path);
   }
 
