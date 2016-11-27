@@ -10,7 +10,7 @@ function writeComments(name, comment) {
     //newComment.push({'Comment' : comment, 'Name': name });
   var newCommentRef = newComment.push();
     newCommentRef.set({ 'Comment' : comment, 'Name': name });
-     var path = newCommentRef.name().toString();
+     var path = newCommentRef.toString();
   document.getElementById("previousC").innerHTML =path;
   populateComments(path);
   }
