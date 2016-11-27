@@ -2,8 +2,8 @@ function populateComments(path){
   var iHateThis = firebase.database().ref(path+ '/Comment');
   iHateThis.on('value', function(snapshot) {
     //document.getElementById("previousC").innerHTML = old + "<br><br/>" + snapshot.val();
-    document.getElementById("previousC").innerHTML = "I Wish this Worked.";
   });
+      document.getElementById("previousC").innerHTML = "I Wish this Worked.";
 }
 function writeComments(name, comment) {  
     var newComment = firebase.database().ref('/Comments');
