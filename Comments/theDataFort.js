@@ -3,7 +3,7 @@ function populateComments(path){
   iHateThis.on('value', function(snapshot) {
     //document.getElementById("previousC").innerHTML = old + "<br><br/>" + snapshot.val();
   });
-      document.getElementById("previousC").innerHTML = "I Wish this Worked.";
+document.getElementById("previousC").innerHTML = "Paragraph changed!";
 }
 function writeComments(name, comment) {  
     var newComment = firebase.database().ref('/Comments');
