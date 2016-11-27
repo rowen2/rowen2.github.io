@@ -1,8 +1,9 @@
 function populateComments(path){
-  var iHateThis = firebase.database().ref('/Comments/-KXXzmwLqqPC_qBnYBwX/Comment');
-  iHateThis.on('value', function(snapshot) {
+  //var iHateThis = firebase.database().ref('/Comments/-KXXzmwLqqPC_qBnYBwX/Comment');
+  var nextDatabase = new Firebase(path+'/Comment");
+  nextDatabase.on('value', function(snapshot) {
     var data = snapshot.val().toString();
-   // document.getElementById("previousC").innerHTML =data;
+    document.getElementById("previousC").innerHTML =data;
   });
 }
 function writeComments(name, comment) {  
@@ -10,9 +11,8 @@ function writeComments(name, comment) {
     //newComment.push({'Comment' : comment, 'Name': name });
   var newCommentRef = newComment.push();
     newCommentRef.set({ 'Comment' : comment, 'Name': name });
-    // var path = newCommentRef.key().toString();
-  document.getElementById("previousC").innerHTML =newCommentRef.key().toString();
-  populateComments("monkeys");
+     var path = newCommentRef.toString();
+  populateComments(path);
   }
 
 function getVariables(){
