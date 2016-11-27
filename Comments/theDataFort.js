@@ -3,7 +3,7 @@ function populateComments(path){
   iHateThis.on('value', function(snapshot) {
     var old = document.getElementById("previousC").innerHTML.toString();
     //document.getElementById("previousC").innerHTML = old + "<br><br/>" + snapshot.val();
-    document.getElementById("previousC").innerHTML = old + "<br><br/>" + "I Wish this Worked.";
+    document.getElementById("previousC").innerHTML = "<br><br/>" + "I Wish this Worked.";
   });
 }
 function writeComments(name, comment) {  
