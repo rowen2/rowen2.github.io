@@ -1,6 +1,6 @@
 function populateComments(path){
   //var iHateThis = firebase.database().ref('/Comments/-KXXzmwLqqPC_qBnYBwX/Comment');
-  var nextDatabase = new Firebase(path+'/Comment");
+  var nextDatabase = new Firebase(path+'/Comment');
   nextDatabase.on('value', function(snapshot) {
     var data = snapshot.val().toString();
     document.getElementById("previousC").innerHTML =data;
