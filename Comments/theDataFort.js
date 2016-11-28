@@ -1,5 +1,5 @@
 function populateComments(path){
-  var data;
+  var data = "";
   var firstDatabase = firebase.database().ref('/Comments/'+path+'/Comment');
   firstDatabase.on('value', function(snapshot) {
     data = snapshot.val().toString();
