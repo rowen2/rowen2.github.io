@@ -3,7 +3,7 @@ function populateComments(path, commentName){
   firstDatabase.on('value', function(snapshot) {
     var data = snapshot.val().toString();
      var temp = document.getElementById("previousC").innerHTML;    
-    document.getElementById("previousC").innerHTML = temp + '<br> <br/>' + commentName+ ', '+ data;   
+    document.getElementById("previousC").innerHTML = temp + '<br> <br/>' + commentName+ ': '+ data;   
   });
 }
                     
