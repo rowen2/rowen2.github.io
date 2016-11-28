@@ -1,9 +1,9 @@
-function populateComments(path){
+function populateComments(path, commentName){
   var firstDatabase = firebase.database().ref('/Comments/'+path+'/Comment');
   firstDatabase.on('value', function(snapshot) {
     var data = snapshot.val().toString();
      var temp = document.getElementById("previousC").innerHTML;    
-    document.getElementById("previousC").innerHTML = temp + '<br> <br/>' + data;   
+    document.getElementById("previousC").innerHTML = temp + '<br> <br/>' + commentName+ ', '+ data;   
   });
 }
                     
@@ -13,7 +13,7 @@ function writeComments(name, comment) {
     newCommentRef.set({ 'Comment' : comment, 'Name': name });
      var path = newCommentRef.toString();
   var key = path.slice(45,65); 
-  populateComments(key);
+  populateComments(key, name);
 }
 
 function getVariables(){
