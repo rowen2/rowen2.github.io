@@ -4,11 +4,15 @@ function populateComments(path){
   firstDatabase.on('value', function(snapshot) {
     data = snapshot.val().toString();
   });
+  populateNames(data);
+}
+
+function populateNames(data){
     var secondDatabase = firebase.database().ref('/Comments/'+path+'/Name');
   secondDatabase.on('value', function(snapshot){
     var nameData = snapshot.val().toString();
     var temp = document.getElementById("previousC").innerHTML;    
-    document.getElementById("previousC").innerHTML = temp + '<br> <br/>' + nameData + '<br> <br/>' + data;
+    document.getElementById("previousC").innerHTML = temp + '<br> <br/>' + nameData + '<br> <br/>' + data;   
 }
                     
 function writeComments(name, comment) {  
