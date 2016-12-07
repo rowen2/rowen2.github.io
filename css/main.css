@@ -89,7 +89,7 @@ p.two {
 	width:530px;
 	border:4px solid gold;
 	float:left;
-	color:white;
+	color:black;
 	font-size:20px;
 	}
 	
@@ -112,7 +112,7 @@ p.two {
 	width:650px;
 	text-align:center;
 	float:left;
-	color:gold;
+	color:black;
 	font-size:20px;
 	font-style:italic;
 	border:3px solid gold;
@@ -124,7 +124,7 @@ p.two {
 	width:100%;
 	height:95px;
 	float:left;
-	color:white;
+	color:black;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
