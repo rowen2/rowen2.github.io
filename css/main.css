@@ -68,7 +68,7 @@ ul.posts li {
 h1.one { /*Header*/
 	text-align:center;
 	height:55px;
-	color:white;
+	color:black;
 	}
 
 #container {
@@ -76,7 +76,6 @@ h1.one { /*Header*/
 	height:850px;
 	border:2px solid black;
 	position:relative;
-	background-color:gold;
 	}
 
 p.two {
@@ -96,7 +95,7 @@ p.two {
 	
 #right a { /*heading links within container*/
 	border:3px solid green;
-	color:white;
+	color:black;
 	padding:5px 10px 5px 10px;
 	}
 		
@@ -116,8 +115,7 @@ p.two {
 	color:gold;
 	font-size:20px;
 	font-style:italic;
-	border:3px solid gold;;
-	background-color:blue;
+	border:3px solid gold;
 	}	
 	
 #footer {
@@ -131,7 +129,6 @@ p.two {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    background-color:red;
 	text-align:left;
 }
 	
