@@ -20,7 +20,7 @@ a {
 }
 h1 a:hover {
     text-decoration: underline;
-    color: blue;
+    color: gold;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: gold; /*#333*/
 }
 #p0 {
     	word-spacing: 40px;
