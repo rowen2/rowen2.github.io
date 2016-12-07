@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%; 
+    background-color: navy;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -87,14 +88,14 @@ p.two {
 	
 	height:600px;
 	width:530px;
-	border:4px solid navy;
+	border:4px solid gold;
 	float:left;
 	color:black;
 	font-size:20px;
 	}
 	
 #right a { /*heading links within container*/
-	border:3px solid green;
+	border:3px solid gold;
 	color:black;
 	padding:5px 10px 5px 10px;
 	}
@@ -115,7 +116,7 @@ p.two {
 	color:black;
 	font-size:20px;
 	font-style:italic;
-	border:4px solid navy;
+	border:4px solid gold;
 	}	
 	
 #footer {
