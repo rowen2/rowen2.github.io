@@ -80,7 +80,6 @@ h1.one { /*Header*/
 	}
 
 p.two {
-	color:white;
 	text-align:center;
 	height:350px;
 }
@@ -93,13 +92,11 @@ p.two {
 	float:left;
 	color:white;
 	font-size:20px;
-	background-color:blue;
 	}
 	
 #right a { /*heading links within container*/
 	border:3px solid green;
 	color:white;
-	background-color:purple;
 	padding:5px 10px 5px 10px;
 	}
 		
@@ -142,7 +139,6 @@ p.two {
 	text-align:center;
 	font-style:italic;
 	color:gold;
-	background-color:blue;
 	}
 
 
