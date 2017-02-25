@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%; 
-    background-color: #002144;
+    background-color: #002144; /*Navy Blue */
     color: white;
     border: 0px solid white;
 }
@@ -21,7 +21,7 @@ a {
 }
 h1 a:hover {
     text-decoration: underline;
-    color: #ECAC00;
+    color: #ECAC00; /*#Gold*/
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #ECAC00; /*#333*/
+    color: #ECAC00; 
 }
 #p0 {
     	word-spacing: 40px;
