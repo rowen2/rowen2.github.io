@@ -61,7 +61,7 @@ ul.posts li {
     padding: 14px 25px;    
 }
 
-#gpaExpand(
+gpaExpand{
 	display:none;
 }
 /* CSS starts for QOTD. */	
