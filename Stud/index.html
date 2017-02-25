@@ -10,6 +10,20 @@ $(document).ready(function(){
     });
 });
 </script>
+<script> 
+$(document).ready(function(){
+    $("#academicTitle").click(function(){
+        $("#academicExpand").slideDown("slow");
+    });
+});
+</script>
+<script> 
+$(document).ready(function(){
+    $("#announcementsTitle").click(function(){
+        $("#announcementsExpand").slideDown("slow");
+    });
+});
+</script>
 <div class="stud">
 	<h1>The Student Tab</h1>
 	<p> This is the tab which aims to aid the student in basic functions like calculating GPA, seeing the tentative 
@@ -22,10 +36,18 @@ $(document).ready(function(){
 	<p> Follow this link to reach a GPA calculator: 
 	<a href="http://gpacalculator.net/college-gpa-calculator/" target="_blank">GPA Calculator</a> </p>
 </div>	
+<div  id="academicTitle">
 	<h2>Academic Calendar</h2>
-	<p> Follow this link to reach the MSU calendar:  <a href="http://murraystate.edu/academics/RegistrarsOffice/CalendarsAndScheduling/Fall%20Winter%202016%20Academic%20Calendar_V3.pdf" target="_blank">Academic Calendar</a> </p>
+</div>
+<div  id="academicExpand">
+	<p> Follow this link to reach the MSU calendar:  
+	<a href="http://murraystate.edu/academics/RegistrarsOffice/CalendarsAndScheduling/Fall%20Winter%202016%20Academic%20Calendar_V3.pdf" 
+	target="_blank">Academic Calendar</a> </p>
+</div>
+<div  id="announcementsTitle">
 	<h2>Special University Announcements</h2>
+</div>
+<div  id="announcementsExpand">
 	<p> This is the announcements spot </p>
-
-
+</div>
 </div><!-- /.stud -->
