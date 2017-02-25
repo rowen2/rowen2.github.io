@@ -2,15 +2,30 @@
 layout: default
 title: Page for students
 ---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#gpaTitle").click(function(){
+        $("#gpaExpand").slideDown("slow");
+    });
+});
+</script>
 <div class="stud">
 	<h1>The Student Tab</h1>
 	<p> This is the tab which aims to aid the student in basic functions like calculating GPA, seeing the tentative 
 		academic calendar, and also a portion to announce any significant messages from the university 
 		(such as school cancelations).</p>
+<div  id="gpaTitle">
 	<h2>GPA Calculator</h2>
-	<p> Follow this link to reach a GPA calculator:  <a href="http://gpacalculator.net/college-gpa-calculator/" target="_blank">GPA Calculator</a> </p>
+</div>	
+<div id="gpaExpand">
+	<p> Follow this link to reach a GPA calculator: 
+	<a href="http://gpacalculator.net/college-gpa-calculator/" target="_blank">GPA Calculator</a> </p>
+</div>	
 	<h2>Academic Calendar</h2>
 	<p> Follow this link to reach the MSU calendar:  <a href="http://murraystate.edu/academics/RegistrarsOffice/CalendarsAndScheduling/Fall%20Winter%202016%20Academic%20Calendar_V3.pdf" target="_blank">Academic Calendar</a> </p>
 	<h2>Special University Announcements</h2>
 	<p> This is the announcements spot </p>
+
+
 </div><!-- /.stud -->
