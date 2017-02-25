@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%; 
-    background-color: navy;
+    background-color: #002144;
     color: white;
     border: 0px solid white;
 }
@@ -21,7 +21,7 @@ a {
 }
 h1 a:hover {
     text-decoration: underline;
-    color: gold;
+    color: #ECAC00;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: gold; /*#333*/
+    color: #ECAC00; /*#333*/
 }
 #p0 {
     	word-spacing: 40px;
@@ -44,11 +44,11 @@ ul.menu {
     
 }
 ul.menu a:hover {
-    color: blue;
+    color: #002144;
     text-decoration: underline;    
 }
 footer a:hover {
-    color: gold;
+    color: #ECAC00;
 }
 
 ul.posts { 
@@ -106,7 +106,7 @@ p.two {
 	}
 	
 #right a { /*heading links within container*/
-	border:3px solid gold;
+	border:3px solid #ECAC00;
 	color:white;
 	padding:5px 10px 5px 10px;
 	}
