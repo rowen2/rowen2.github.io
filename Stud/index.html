@@ -42,7 +42,14 @@ function calculateGPA(){
 	result = creditWorth/totalCredits;
 	document.getElementById("gpaCalculator").innerHTML = result +" "+ classesSum +" "+creditWorth +" "+ totalCredits +" "+credits+" "+ grade;
 }
-
+function reset(){
+	grade = 0;
+	credits = 0;
+	totalCredits = 0;
+	creditWorth = 0;
+	classesSum = 0;
+	result = 0;
+}
 </script>
 <div>
 	<h1>The Student Tab</h1>
@@ -54,15 +61,18 @@ function calculateGPA(){
 </div>	
 <div id="gpaExpand">
 	<p> 
-		Enter Grade:
+		Enter Grade (between 0-4):
 		<input type="text" name="grade" id="g" value=0>
-		Enter Credit:
+		Enter Credit (between 0-4):
 		<input type="text" name="credit" id="c" value=0>
 		<button onclick="setVariables()">Submit!</button>
 	</p>
 	<p>
 		When you are finished, press "Calculate!":
 		<button onclick="calculateGPA()">Calculate!</button>
+		<br><br/>
+		To reset, press "Reset":
+		<button onclick="reset()">Reset</button>
 	</p>
 	<p id="gpaCalculator"> </p>
 </div>	
