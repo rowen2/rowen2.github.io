@@ -34,7 +34,7 @@ var result = 0;
 function setVariables(){
 	grade = document.getElementById("g").value;
 	credits = document.getElementById("c").value;
-	totalCredits += credits;
+	totalCredits += parseFloat(credits);
 	creditWorth += grade * credits;
 	classesSum = classesSum +1;
 }	
