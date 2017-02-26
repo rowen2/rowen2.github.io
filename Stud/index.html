@@ -25,11 +25,24 @@ $(document).ready(function(){
 });
 </script>
 <script>
-var GradesSum = 0;
-var CreditsSum = 0;
-var ClassesSum = 0;
+var grade = 0;
+var credits = 0;
+var totalCredits = 0;
+var creditWorth = 0;
+var classesSum = 0;
 var result = 0;
-document.getElementById("gpaCalculator").innerHTML = result;
+function setVariables(){
+	grade = document.getElementById("g").value;
+	credits = document.getElementById("c").value;
+	totalCredits = document.getElementById("c").value + totalCredits;
+	creditWorth = grade * credits + creditWorth;
+	classesSum = classesSum +1;
+}	
+function calculateGPA(){
+	result = creditWorth/totalCredits;
+	document.getElementById("gpaCalculator").innerHTML = result;
+}
+
 </script>
 <div>
 	<h1>The Student Tab</h1>
@@ -42,15 +55,14 @@ document.getElementById("gpaCalculator").innerHTML = result;
 <div id="gpaExpand">
 	<p> 
 		Enter Grade:
-		<input type="text" name="firstname" value=0>
+		<input type="text" name="grade" id="g" value=0>
 		Enter Credit:
-		<input type="text" name="lastname" value=0>
-		<input type="submit" value="Submit">
+		<input type="text" name="credit" id="c" value=0>
+		<button onclick="setVariables()">Submit!</button>
 	</p>
 	<p>
-		When you are finished, enter the number of classes you took:
-		<input type="text" name="lastname" value=0>
-		<input type="submit" value="Submit">
+		When you are finished, press "Calculate!":
+		<button onclick="getVariables()">Calculate!</button>
 	</p>
 	<p id="gpaCalculator"> </p>
 </div>	
