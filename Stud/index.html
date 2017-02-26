@@ -34,8 +34,8 @@ var result = 0;
 function setVariables(){
 	grade = document.getElementById("g").value;
 	credits = document.getElementById("c").value;
-	totalCredits = credits + totalCredits;
-	creditWorth = grade * credits + creditWorth;
+	totalCredits += credits;
+	creditWorth += grade * credits;
 	classesSum = classesSum +1;
 }	
 function calculateGPA(){
