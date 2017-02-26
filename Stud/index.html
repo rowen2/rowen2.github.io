@@ -24,6 +24,13 @@ $(document).ready(function(){
     });
 });
 </script>
+<script>
+var GradesSum = 0;
+var CreditsSum = 0;
+var ClassesSum = 0;
+var result = 0;
+document.getElementById("gpaCalculator").innerHTML = result;
+</script>
 <div>
 	<h1>The Student Tab</h1>
 	<p> This is the tab which aims to aid the student in basic functions like calculating GPA, seeing the tentative 
@@ -33,7 +40,19 @@ $(document).ready(function(){
 	<h2 style="cursor:pointer">GPA Calculator</h2>
 </div>	
 <div id="gpaExpand">
-	<p>  </p>
+	<p> 
+		Enter Grade:
+		<input type="text" name="firstname" value=0>
+		Enter Credit:
+		<input type="text" name="lastname" value=0>
+		<input type="submit" value="Submit">
+	</p>
+	<p>
+		When you are finished, enter the number of classes you took:
+		<input type="text" name="lastname" value=0>
+		<input type="submit" value="Submit">
+	</p>
+	<p id="gpaCalculator"> </p>
 </div>	
 <div  id="academicTitle">
 	<h2 style="cursor:pointer">Academic Calendar</h2>
