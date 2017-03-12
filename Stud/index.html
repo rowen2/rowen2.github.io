@@ -32,18 +32,20 @@ var creditWorth = 0;
 var classesSum = 0;
 var result = 0;
 function setVariables(){
-	var gradeArray = document.getElementById("gradeVal");
+	var gradeArray = document.getElementsByName('gradeVal');
     	var gradeArrayL = gradeArray.length;
     	for (i=0; i < gradeArrayL; i++) {
             if (gradeArray[i].checked==true) {   
            	grade = gradeArray[i].value;
+		break;
 	    }
     	}
-	var creditArray = document.getElementById("creditVal");
+	var creditArray = document.getElementsByName('creditVal');
     	var creditArrayL = creditArray.length;
     	for (i=0; i < creditArrayL; i++) {
             if (creditArray[i].checked==true) {   
            	credits = creditArray[i].value;
+		break;
 	    }
     	}
 	totalCredits += parseFloat(credits);
