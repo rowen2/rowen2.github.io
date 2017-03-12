@@ -62,8 +62,11 @@ ul.posts li {
 }
 
 #gpaExpand{
-    	display: inline-block;
+	display: inline-block;
 	display:none;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: #ECAC00; 
 }
 #academicExpand{
 	display:none;
