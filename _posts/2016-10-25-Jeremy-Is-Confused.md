@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Murray User Manual test post"
+title: "Jermey's cornfuse"
 date: 2016-10-25
 ---
 
