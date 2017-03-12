@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: "Jermey's cornfuse"
-date: 2016-10-25
+title: "Welcome to Murray User Manual"
+date: 2017-3-12
 ---
 
-Jeremy is confused as for what this post format is for. This is to explain to him what the post format does.
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
