@@ -61,13 +61,23 @@ function reset(){
 	<h2 style="cursor:pointer">GPA Calculator</h2>
 </div>	
 <div id="gpaExpand">
-	<p> 
-		Enter Grade (between 0-4):
-		<input type="text" name="grade" id="g" value=0>
-		Enter Credit (between 0-4):
-		<input type="text" name="credit" id="c" value=0>
-		<button onclick="setVariables()">Submit!</button>
-	</p>
+	<form action="">
+	Enter Grade (between 0-4):			
+	  <input type="radio" name="gradeVal" value="A"> A<br>
+	  <input type="radio" name="gradeVal" value="B"> B<br>
+	  <input type="radio" name="gradeVal" value="C"> C<br>
+	  <input type="radio" name="gradeVal" value="D"> D<br>
+	  <input type="radio" name="gradeVal" value="E"> E
+	</form>	
+	<form action="">
+	Enter Credit (between 0-4):			
+	  <input type="radio" name="creditVal" value="5"> 5<br>
+	  <input type="radio" name="creditVal" value="4"> 4<br>
+	  <input type="radio" name="creditVal" value="3"> 3<br>
+	  <input type="radio" name="creditVal" value="2"> 2<br>
+	  <input type="radio" name="creditVal" value="1"> 1
+	</form>			
+	<button onclick="setVariables()">Add</button>	
 	<p>
 		When you are finished, press "Calculate!":
 		<button onclick="calculateGPA()">Calculate!</button>
