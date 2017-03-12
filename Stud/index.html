@@ -6,8 +6,7 @@ title: Page for students
 <script> 
 $(document).ready(function(){
     $("#gpaTitle").click(function(){
-        $("#gpaExpand").slideDown("slow");
-	$("#gpaExpand").slideDown("slow");    
+        $("#gpaExpand").slideDown("slow");  
     });
 });
 </script>
@@ -92,11 +91,9 @@ function reset(){
 	  <input type="radio" name="creditVal" value="2" > 2<br>
 	  <input type="radio" name="creditVal" value="1" > 1
 	</form>			
-	<button onclick="setVariables()">Add</button>	
-</div>	
-<div id="gpaExpand">
-	<button onclick="calculateGPA()">Calculate!</button><br><br>
-	<button onclick="reset()">Reset</button><br><br>
+	<button onclick="setVariables()">Add</button><br>
+	<button onclick="calculateGPA()">Press to Calculate GPA</button><br>
+	<button onclick="reset()">Press to Reset Grades</button><br><br>
 	<input type="text" name="result" id="gpaCalculator" value="Result" >
 </div>
 <div  id="academicTitle">
