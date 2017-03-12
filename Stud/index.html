@@ -32,8 +32,8 @@ var creditWorth = 0;
 var classesSum = 0;
 var result = 0;
 function setVariables(){
-	grade = document.getElementById("g").value;
-	credits = document.getElementById("c").value;
+	grade = document.getElementById("gradeVal").value;
+	credits = document.getElementById("creditVal").value;
 	totalCredits += parseFloat(credits);
 	creditWorth += grade * credits;
 	classesSum = classesSum +1;
@@ -61,7 +61,7 @@ function reset(){
 	<h2 style="cursor:pointer">GPA Calculator</h2>
 </div>	
 <div id="gpaExpand">
-	<form action="">
+	<form action="" id="gradeVal">
 	Enter Grade (between 0-4):			
 	  <input type="radio" name="gradeVal" value="A"> A<br>
 	  <input type="radio" name="gradeVal" value="B"> B<br>
@@ -69,7 +69,7 @@ function reset(){
 	  <input type="radio" name="gradeVal" value="D"> D<br>
 	  <input type="radio" name="gradeVal" value="E"> E
 	</form>	
-	<form action="">
+	<form action="" id="creditVal">
 	Enter Credit (between 0-4):			
 	  <input type="radio" name="creditVal" value="5"> 5<br>
 	  <input type="radio" name="creditVal" value="4"> 4<br>
