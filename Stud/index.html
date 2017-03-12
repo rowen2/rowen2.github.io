@@ -53,7 +53,9 @@ function setVariables(){
 	classesSum = classesSum +1;
 }	
 function calculateGPA(){
-	result = creditWorth/totalCredits;
+	if(totalCredits!=0){
+		result = creditWorth/totalCredits;
+	}
 	document.getElementById("gpaCalculator").value = result;
 }
 function reset(){
