@@ -26,6 +26,7 @@ a {
     display: inline-block;
 }
 ul.tab{
+    list-style-type: none;	
     padding: 0;
 }
 h1 a:hover {
