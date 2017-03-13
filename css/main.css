@@ -20,10 +20,13 @@ a {
     color: #999;
 }
 #murrayLinks {
-    padding: 10px 0px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+ul.tab{
+    padding: 0;
 }
 h1 a:hover {
     text-decoration: underline;
