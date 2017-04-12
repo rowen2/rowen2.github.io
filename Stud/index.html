@@ -2,7 +2,9 @@
 layout: default
 title: Page for students
 ---
+<!-- Source of jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- slide listener -->
 <script> 
 $(document).ready(function(){
     $("#gpaTitle").click(function(){
@@ -10,6 +12,7 @@ $(document).ready(function(){
     });
 });
 </script>
+<!-- slide listener -->
 <script> 
 $(document).ready(function(){
     $("#academicTitle").click(function(){
@@ -17,6 +20,7 @@ $(document).ready(function(){
     });
 });
 </script>
+<!-- slide listener -->
 <script> 
 $(document).ready(function(){
     $("#announcementsTitle").click(function(){
@@ -24,6 +28,7 @@ $(document).ready(function(){
     });
 });
 </script>
+<!-- variable declarations -->
 <script>
 var grade = 0;
 var credits = 0;
@@ -31,6 +36,7 @@ var totalCredits = 0;
 var creditWorth = 0;
 var classesSum = 0;
 var result = 0;
+//gets input when called, and assigns to variables
 function setVariables(){
 	var gradeArray = document.getElementsByName('gradeVal');
     	var gradeArrayL = gradeArray.length;
@@ -52,12 +58,14 @@ function setVariables(){
 	creditWorth += grade * credits;
 	classesSum = classesSum +1;
 }	
+//calculates gpa with present variables
 function calculateGPA(){
 	if(totalCredits!=0){
 		result = creditWorth/totalCredits;
 	}
 	document.getElementById("gpaCalculator").value = result;
 }
+//resets variable values
 function reset(){
 	grade = 0;
 	credits = 0;
