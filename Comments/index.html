@@ -5,6 +5,7 @@ title: About (MUM)
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- links firebase database -->
 		<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
 		<script src="theDataFort.js"></script>
 		<script>
@@ -20,11 +21,12 @@ title: About (MUM)
 		</script>
 	</head>
 	<body>
-		
 		<div class="about">
+			<!-- input for data -->
 			<h1>Enter Comments Here</h1>
 			<p>  Name: <input type="text" name="CommentID" id="cID" value="" style="width: 100px;"></p>
 			<p>  Comment: <input type="text" name="CommentText" id="com" value="" style="width: 300px;"></p>
+			<!-- listens for submit click, calls function -->
       			<p> <button onclick="getVariables()">Submit!</button> </p>
 			<h2> Previous Comments </h2>
 			<p id="previousC"> </p>
