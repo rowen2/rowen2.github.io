@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Need help with your GPA?"
-date: 2017-4-14
+date: 2017-3-14
 ---
 
 "There is a convenient GPA calculator under the "Student" tab. 
