@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Welcome to Murray User Manual"
+title: "Want a ticket?"
 date: 2017-4-14
 ---
 
