@@ -3,8 +3,8 @@ body {
     width:60%;
     margin-left:auto;
     margin-right:auto;
-    background-color: #002144; /*Navy Blue */
-    color: black;
+    background-color: #999; /*Navy Blue */
+    color: white;
     border: 0px solid white;
 }
 nav ul, footer ul {
@@ -19,7 +19,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #002144;
 }
 
 #murrayLinks {
