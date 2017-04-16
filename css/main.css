@@ -86,6 +86,10 @@ ul.posts li {
 	display: inline-block;
 	color: white; 
 }
+#gpaButtonsDiv{
+	display: inline-block;
+	color:white;
+}
 #academicExpand{
 	display:none;
 }
