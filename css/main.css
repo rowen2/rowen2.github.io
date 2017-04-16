@@ -2,8 +2,8 @@ body {
     margin: 60px auto;
     width: 80%; 
     background-color: #002144; /*Navy Blue */
-    color: white;
-    border: 0px solid black;
+    color: black;
+    border: 0px solid white;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
