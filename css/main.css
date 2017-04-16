@@ -19,7 +19,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #002144;
+    color: #999;
 }
 
 #murrayLinks {
@@ -126,7 +126,7 @@ h1.one { /*Header*/
 	text-align:center;
 	height:850px;
 	border:2px solid white;
-	
+	background-color: #002144;
 	width:60%;
         margin-left:auto;
         margin-right:auto;
