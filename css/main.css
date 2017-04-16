@@ -17,8 +17,9 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #555;
 }
+
 #murrayLinks {
     padding: 10px 20px;
     text-align: center;
