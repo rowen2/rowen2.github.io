@@ -86,31 +86,33 @@ function reset(){
 </div>	
 <div id="gpaExpand">
 	For each class, enter the following information, then press "Add."<br>		
-	<div id="resultDiv">
-		<input type="text" name="result" id="gpaCalculator" value="Result" style="width: 170px;">
-	</div>
-	<div id ="gradeEarnedDiv">
-		<form action="" id="gradeVal">	
-		  <input type="radio" name="gradeVal" value="4" > A<br>
-		  <input type="radio" name="gradeVal" value="3" > B<br>
-		  <input type="radio" name="gradeVal" value="2" > C<br>
-		  <input type="radio" name="gradeVal" value="1" > D<br>
-		  <input type="radio" name="gradeVal" value="0" > E
-		</form>	
-	</div>
-	<div id="creditEarnedDiv">
-		<form action="" id="creditVal">		
-		  <input type="radio" name="creditVal" value="5" > 5<br>
-		  <input type="radio" name="creditVal" value="4" > 4<br>
-		  <input type="radio" name="creditVal" value="3"> 3<br>
-		  <input type="radio" name="creditVal" value="2" > 2<br>
-		  <input type="radio" name="creditVal" value="1" > 1
-		</form>		
-	</div>
-	<div id="gpaButtonsDiv">
-	<button onclick="setVariables()" style="width: 80px; height: 60;">Add</button><br>
-	<button onclick="calculateGPA()" style="width: 80px; height: 60;">Calculate</button><br>
-	<button onclick="reset()" style="width: 80px; height: 60;">Reset</button><br><br>
+	<div id="calculatorDiv">
+		<div id="resultDiv">
+			<input type="text" name="result" id="gpaCalculator" value="Result" style="width: 170px;">
+		</div>
+		<div id ="gradeEarnedDiv">
+			<form action="" id="gradeVal">	
+			  <input type="radio" name="gradeVal" value="4" > A<br>
+			  <input type="radio" name="gradeVal" value="3" > B<br>
+			  <input type="radio" name="gradeVal" value="2" > C<br>
+			  <input type="radio" name="gradeVal" value="1" > D<br>
+			  <input type="radio" name="gradeVal" value="0" > E
+			</form>	
+		</div>
+		<div id="creditEarnedDiv">
+			<form action="" id="creditVal">		
+			  <input type="radio" name="creditVal" value="5" > 5<br>
+			  <input type="radio" name="creditVal" value="4" > 4<br>
+			  <input type="radio" name="creditVal" value="3"> 3<br>
+			  <input type="radio" name="creditVal" value="2" > 2<br>
+			  <input type="radio" name="creditVal" value="1" > 1
+			</form>		
+		</div>
+		<div id="gpaButtonsDiv">
+		<button onclick="setVariables()" style="width: 80px; height: 60;">Add</button><br>
+		<button onclick="calculateGPA()" style="width: 80px; height: 60;">Calculate</button><br>
+		<button onclick="reset()" style="width: 80px; height: 60;">Reset</button><br><br>
+		</div>
 	</div>
 </div>
 <div  id="academicTitle">
