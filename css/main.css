@@ -3,7 +3,7 @@ body {
     width: 80%; 
     background-color: #002144; /*Navy Blue */
     color: white;
-    border: 0px solid white;
+    border: 0px solid black;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
