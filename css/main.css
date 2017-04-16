@@ -78,6 +78,20 @@ ul.posts li {
 	line-height: 1.4em;
 	color: #ECAC00; 
 }
+#gradeEarnedDiv{
+	display: inline-block;
+	display:none;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: white; 
+}
+#creditEarnedDiv{
+	display: inline-block;
+	display:none;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: white; 
+}
 #academicExpand{
 	display:none;
 }
