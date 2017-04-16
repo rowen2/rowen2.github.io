@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 80%; 
     background-color: #002144; /*Navy Blue */
-    color: white;
+    color: black;
     border: 0px solid white;
 }
 nav ul, footer ul {
