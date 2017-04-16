@@ -86,6 +86,7 @@ function reset(){
 </div>	
 <div id="gpaExpand">
 	For each class, enter the following information, then press "Add."<br>	
+	<input type="text" name="result" id="gpaCalculator" value="Result" style="width: 200px;">
 	<div id ="gradeEarnedDiv">
 		<form action="" id="gradeVal">	
 		  <input type="radio" name="gradeVal" value="4" > A<br>
@@ -104,10 +105,11 @@ function reset(){
 		  <input type="radio" name="creditVal" value="1" > 1
 		</form>		
 	</div>
-	<button onclick="setVariables()" style="width: 200px;">Add</button><br>
-	<button onclick="calculateGPA()" style="width: 200px;">Press to Calculate GPA</button><br>
-	<button onclick="reset()" style="width: 200px;">Press to Reset Grades</button><br><br>
-	<input type="text" name="result" id="gpaCalculator" value="Result" style="width: 200px;">
+	<div id="gpaButtonsDiv">
+	<button onclick="setVariables()" style="width: 80px; height: 60;">Add</button><br>
+	<button onclick="calculateGPA()" style="width: 80px; height: 60;">Calculate</button><br>
+	<button onclick="reset()" style="width: 80px; height: 60;">Reset</button><br><br>
+	</div>
 </div>
 <div  id="academicTitle">
 	<h2 style="cursor:pointer">Academic Calendar</h2>
