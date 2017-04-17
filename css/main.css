@@ -101,7 +101,7 @@ ul.posts li {
     padding: 10px;
     border: 5px solid black;
     margin: 0;
-    background-color: rgb(0, 115, 255);
+    background-color: #555;
 }
 #academicExpand{
 	display:none;
